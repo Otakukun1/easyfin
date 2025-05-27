@@ -369,3 +369,19 @@ footer {
   font-size: 0.9rem;
   font-style: italic;
 }
+
+/* CSS */
+.iframe-container {
+  display: flex;
+  justify-content: center;  /* Horizontally center */
+  align-items: center;      /* Vertically center (optional) */
+  margin-top: 40px;         /* Optional spacing */
+}
+
+.centered-iframe {
+  width: 80%;               /* Adjust width as needed */
+  height: 600px;            /* Adjust height as needed */
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
